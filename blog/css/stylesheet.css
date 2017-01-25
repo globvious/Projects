@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+#navbar a {
+    color: red;
+    text-decoration: none;
+}
+
+#navbar table {
+    align: center;
+    width: 100%;
+}
+
+p > a {
+    color: #52E500;
+    text-decoration: none;
+}
+
+#button {
+	border: 2px solid #000000;
+	float:left;
+	position: relative;
+	left: 229px;
+	bottom: -20px;
+	border-radius: 5px;
+	background-color: #cc0323;
+	height: 30px;
+	width: 150px;
+}
+
+#button p {
+	position: relative;
+	bottom: 10px;
+	font-size: 0.8em;
+	color: #acd1b2;
+	text-align: center;
+}
