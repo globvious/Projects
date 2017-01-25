@@ -1,5 +1,15 @@
 {
 "loadUrl1": "https://www.rowsdowr.com/",
 "assertUrl1": "rowsdowr.com",
-"link1": "HORROR"
+"link1": "HOME",
+"link2": "ABOUT",
+"link3": "ARCHIVES",
+"link4": "CONTACT",
+"link5": "MST3K",
+"link6": "SCI-FI",
+"link7": "HORROR",
+"link8": "MOVIES",
+"link9": "TELEVISION",
+"link10": "ILLUSTRATION",
+"link11": "RARE VHS"
 }
