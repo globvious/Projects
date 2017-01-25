@@ -1,13 +1,13 @@
 define(function(require) {
 
-    function rowdowrObj(remote) {
+    function rowsdowrObj(remote) {
         this.remote = remote;
     };
 
-    var timer = 5000;
+    var timer = 10000;
 
-    rowdowrObj.prototype = {
-        constructor: rowdowrObj,
+    rowsdowrObj.prototype = {
+        constructor: rowsdowrObj,
 
         // Click link
         clickLink: function(linkText) {
@@ -23,5 +23,5 @@ define(function(require) {
         },
 
     };
-    return rowdowrObj;
+    return rowsdowrObj;
 });

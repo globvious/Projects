@@ -26,5 +26,13 @@ define(function(require) {
             });
         },
 
+        // Click Horror link
+        mst3kLink: function() {
+            return rowsdowrObj.clickLink(info.link5)
+            .then(function(url) {
+                assert.include(url, info.assertUrl2);
+            });
+        },
+
     });
 });
