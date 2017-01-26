@@ -26,6 +26,14 @@ define(function(require) {
             });
         },
 
+        // Click first post
+        clickFirstPost: function() {
+            return rowsdowrObj.firstPost()
+            .then(function(url) {
+                assert.notEqual(url, info.loadUrl1)
+            });
+        },
+
         // Click Horror link
         mst3kLink: function() {
             return rowsdowrObj.clickLink(info.link5)

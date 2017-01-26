@@ -22,6 +22,19 @@ define(function(require) {
                 });
         },
 
+        // Click first post
+        firstPost: function() {
+            return this.remote
+                .setFindTimeout(timer)
+                .findDisplayedByCssSelector('div.post')
+                .click()
+                .end()
+                .getCurrentUrl()
+                .then(function(url) {
+                    return url;
+                });
+        },
+
     };
     return rowsdowrObj;
 });
