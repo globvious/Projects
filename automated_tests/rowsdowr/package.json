@@ -1,0 +1,29 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "Automated testing project",
+  "main": "intern.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+	"intern": "^3.4.2",
+	},
+  "scripts": {
+    "test": "intern-runner config=tests/intern"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/globvious/Projects/tree/master/automated_tests/rowsdowr/"
+  },
+  "keywords": [
+    "intern",
+    "javascript",
+    "test"
+  ],
+  "author": "Bill Mayer",
+  "license": "ISC",
+  "devDependencies": {
+    "intern": "^3.4.2"
+  }
+}
